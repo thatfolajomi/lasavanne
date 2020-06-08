@@ -51,6 +51,55 @@ h1 {
     align-items: center;
     color: #FFFFFF;
   }
+
+  #EN {
+    /* EN| */
+    margin-left: 0.125;
+    width: 19px;  
+    left: 100px;
+    margin-top: 3%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #747272;
+  }
+
+  #ES {
+    /* ES| */
+    margin-left: 0.125;
+    width: 17px;
+    left: 125px;
+    margin-top: 3%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #747272;
+  }
+  
+  #FR {
+    /* FR */
+   
+    width: 15px;
+    left: 148px;
+    margin-top: 3%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #747272;
+  }
+  
+  #languages {
+    margin-left: 8.5%;
+  }
   
   #nav-toggle {
     position: absolute; 
@@ -72,15 +121,29 @@ h1 {
     
 }
 #bottom-selectors{
-    height: 20%;
-    padding: 2% 0;
+    height: 10%;
+    padding: 2% 0 0 0;
     background: #747272;
     color: rgba(255, 255, 255, 1);
 }
-.remove-padding{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
+
 .opacity-50{
     color: rgba(255, 255, 255, 0.5);
+}
+span.selected{
+    border-radius: 100%;
+    background: #7AD5B4;
+    padding: 3px 12px;
+}
+.guest-number{
+    margin: auto 5%;
+}
+.big-button-home{
+     background: #7AD5B4;
+     text-align: center;
+     /* width: 80%;
+     height: 80%; */
+     border-radius: 0px;
+     padding: 20%;
+     margin: -30% 0;
 }
