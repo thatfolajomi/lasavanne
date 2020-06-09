@@ -1,102 +1,109 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <!-- BOOTSTRAP CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-   <!-- GOOGLE FONT MAIN -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+​
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+​
+    <!-- GOOGLE FONT MAIN -->
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet"> 
+​
     <!-- MAIN CSS FILE -->
     <link rel="stylesheet" href="master.css">
-    
     <title>Facilities | La Savane D'Afrique</title>
-  </head>
-  <body>
+</head>
+<body>
+​   <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md fixed-top">
+    <a class="nav-brand" href="index.html">LA SAVANE D’AFRIQUE</a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="navLinks" aria-label="Toggle Navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a href="index.html">
+    <div class="collapse navbar-collapse" id="navLinks">
+      <ul class="nav navbar-nav justify-content-end">
+        <li class="nav-item">
+        <a class="nav-link" href="contact.html" id="AboutUs">About Us</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="rates.html">Destination</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="facilities.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+            <a class="btn btn-primary btn-sm" href="rates.html" role="button">BOOK NOW</a>
+        </li>
+        <li class="nav-item">
+            <a id="nav-toggle" href="#">&#9776;</a>
+        </li>
+      </ul>
+    <div>
+  
 
+    <div id="languages">
+      <ul class="nav justify-content-beginning">
 
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md fixed-top">
-      <a class="nav-brand" href="">LA SAVANE D’AFRIQUE</a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="navLinks" aria-label="Toggle Navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <a href="index.html">
-      <div class="collapse navbar-collapse" id="navLinks">
-        <ul class="nav navbar-nav justify-content-end">
-          <li class="nav-item">
-          <a class="nav-link" href="contact.html" id="AboutUs">About Us</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="rates.html">Destination</a>
-          </li>
-          <li class="nav-item">
-          <a class="nav-link" href="facilities.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-              <a class="btn btn-primary btn-sm" href="rates.html" role="button">BOOK NOW</a>
-          </li>
-          <li class="nav-item">
-              <a id="nav-toggle" href="#">&#9776;</a>
-          </li>
-        </ul>
-      <div>
-    
+        <li id="EN">
+          <a class="nav-link" href="#">EN|</a>  
+        </li>
 
-      <div id="languages">
-        <ul class="nav justify-content-beginning">
+        <li id="ES">
+          <a class="nav-link" href="#">ES|</a>  
+        </li>
 
-          <li id="EN">
-            <a class="nav-link" href="#">EN|</a>  
-          </li>
+        <li id="FR">
+          <a class="nav-link" href="#">FR</a>  
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-          <li id="ES">
-            <a class="nav-link" href="#">ES|</a>  
-          </li>
-
-          <li id="FR">
-            <a class="nav-link" href="#">FR</a>  
-          </li>
-        </ul>
-      </div>
-    </nav>
 
     <div class="container">
-      <div class="row">
-          <div class="mx-0 my-1 col-md-4">
-              <div class="justify-content-start align-items-center">
-                  <div class="col-6">
-                      <img class="img-fluid" src="https://sivak-partners.com/wp-content/uploads/2020/05/2020-05-08-17.12.06.jpg" alt="Restaurant reservation">
-                  </div>
-                  <div class="col-6">
-                      <img class="img-fluid" src="https://sivak-partners.com/wp-content/uploads/2020/05/IMG_7492-768x996-1.jpg" alt="Restaurant reservation">
-                  </div>
-                  <div class="centered">Restaurant</div>
-              </div>
-          </div>
-          <div class="my-1 col-md-8 justify-content-center align-items-center">
-              <img class="img-fluid" src="https://sivak-partners.com/wp-content/uploads/2020/05/3997BEAE-D7C3-46F8-8D3F-93E782FA6D46-1600x1200-2.jpg" alt="Fitness Centre">
-              <div class="centered">Fitness Center</div>
-          </div>
-      </div>
-
-      <div class="row">
-          <div class="my-1 col-md-4">
-              <img class="img-fluid" src="https://sivak-partners.com/wp-content/uploads/2020/05/3997BEAE-D7C3-46F8-8D3F-93E782FA6D46-1600x1200-2.jpg" alt="Yoga Centre">
-              <div class="centered">Yoga Center</div>
-          </div>
-          <div class="my-1 col-md-8">
-              <img class="img-fluid" src="https://sivak-partners.com/wp-content/uploads/2020/05/3997BEAE-D7C3-46F8-8D3F-93E782FA6D46-1600x1200-2.jpg" alt="Conference Room">
-              <div class="centered">Conference Rooms</div>
-          </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-6 removeSpace">
+                        <img class="img-responsive" src="https://sivak-partners.com/wp-content/uploads/2020/05/2020-05-08-17.12.06.jpg" alt="Restaurant reservation">
+                    </div>
+                    <div class="col-6 removeSpace">
+                        <img class="img-responsive" src="https://sivak-partners.com/wp-content/uploads/2020/05/IMG_7492-768x996-1.jpg" alt="Restaurant reservation">
+                    </div>
+                    <div class="centered">Restaurant</div>
+                </div>
+            </div>
+            <div class="my-1 col-md-8 justify-content-center align-items-center">
+                <img class="img-responsive" src="https://i.pinimg.com/originals/c8/0e/f2/c80ef20147ec0a83e3d16368a173124b.jpg" alt="Fitness Centre">
+                <div class="centered">Fitness Center</div>
+            </div>
+        </div>
+​
+        <div class="row">
+            <div class="col-md-4 justify-content-center align-items-center">
+                <img class="img-responsive" src="https://sivak-partners.com/wp-content/uploads/2020/05/3997BEAE-D7C3-46F8-8D3F-93E782FA6D46-1600x1200-2.jpg" alt="Yoga Centre">
+                <div class="centered">Yoga Center</div>
+            </div>
+            <div class="my-1 col-md-8 justify-content-center align-items-center">
+                <img class="img-responsive" src="https://images.squarespace-cdn.com/content/v1/5a707ee612abd9123ad82bba/1517352425154-49ASGHWE8XJKYEXTS04T/ke17ZwdGBToddI8pDm48kCxrWBWPkIzN0WsoCgzegX8UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dp1VM4tVibBKk0vjOP7aMZledlnvTiXqXKMg8XucKYugoRwB-dUGsSquCnVTFQcaRg/OFS_meetingroom_conference_wr_02.jpg?format=2500w" alt="Conference Room">
+                <div class="centered">Conference Rooms</div>
+            </div>
+        </div>
+​
     </div>
-
-
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-  </body>
+​
+​
+​
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+</body>
 </html>
+
+
+
