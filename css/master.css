@@ -1,3 +1,114 @@
 body{
     
 }
+
+h1 {
+    position: absolute;
+    width: 527px;
+    height: 46px;
+    margin-left: 0.125%;
+    top: 50px;
+    font-family: Gill Sans MT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.65);
+    text-shadow: 3px 3px 3px #B7B7B7;
+  }
+  
+  
+  
+  .nav-item {
+    margin-top: 65px;
+    /* margin-inline-start: 4%; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #000000;
+  }
+  
+  .nav-link {
+    color: #000000;
+  }
+  
+  
+  .btn.btn-primary.btn-sm {
+    width: 85px;]
+    height: 19px;
+    position: absolute;
+    right: 4%;
+    background: #7AD5B4;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  
+  #nav-toggle {
+    position: absolute; 
+    right: 3%;
+    margin-top: 0%;
+    color: #000000;
+  }
+  
+  
+  #EN {
+    /* EN| */
+    margin-left: 0.125;
+    width: 19px;  
+    left: 100px;
+    margin-top: 3%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #747272;
+  }
+  
+  #ES {
+    /* ES| */
+    width: 17px;
+    left: 125px;
+    margin-top: 3%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #747272;
+  }
+  
+  #FR {
+    /* FR */
+   
+    width: 15px;
+    left: 148px;
+    margin-top: 3%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    color: #747272;
+  }
+  
+  #languages {
+    margin-left: 8.5%;
+  }
+  
